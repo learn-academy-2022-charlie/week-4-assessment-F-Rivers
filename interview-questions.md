@@ -7,9 +7,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What are props in React?
 
-  Your answer: Props is how you pass information from the parent component to the child component. You make the information available by referencing the variable with props. 
+  Your answer: Props is how you pass information from the parent component to the child component. You make the information available by referencing the variable with props. We have used props in our class when we learned about React, we utilized props when we made a multi-page app and needed to share information from one page to the other.   
 
-  Researched answer: Props is a keyword in React, that stands for properties, and is being used for passing data from one component to another. The important part is that the data in props is being passed in a uni-directional flow (from parent to child). Props data is read-only, the data coming from the parent cannot be changed by the child component.
+  Researched answer: Props is a keyword in React, that stands for properties, it is used for passing data from one component to another component. The data can only be passed from parent to child, not the other way around . Props data is read-only, the data coming from the parent cannot be changed by the child component.
 
   source: https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
 
@@ -17,21 +17,21 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 2. What is a DOM event?
 
-  Your answer: Document Object Model event, also referred to as "e", is an event that occurs when the user interacts with the web page. 
+  Your answer: Document Object Model event, also referred to in our code as "e", is an event that occurs when the user interacts with the web page. We used "e" when adding the commands like 'onClick' on our pages.   
 
-  Researched answer: DOM Events are a signal that something has occurred, or is occurring, and can be triggered by user interactions or by the browser. HTML DOM events allow JS to register different event handlers on elements in an HTML document. Events are normally used in combination with functions, and the function will not be executed before the event occurs (such as when a user clicks a button).
+  Researched answer: DOM Events are a signal that something has occurred, or is occurring, and can be triggered by user interactions or by the browser. HTML DOM events allow JS to register different events in elements in the HTML document. DOM Events are normally used in combination with functions, and the function will not be executed before the event occurs. Something interesting I learned while researching this was that the event models used by web browsers used to have some differences that caused compatibility problems. This was solved by standardizing the event models in the the World Wide Web Consortium.
 
   source: https://www.w3schools.com/jsref/dom_obj_event.asp#:~:text=HTML%20DOM%20events%20allow%20JavaScript,a%20user%20clicks%20a%20button).
 
 
 3. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer: Object-oriented programming has the data stored in the elements and functional programming is empty to use.
+  Your answer: Object-oriented programming has the data stored in the elements and functional programming is empty to use. We use this type of programming in our class to make the most dynamic code we possibly can, making it useful for several projects. 
 
   Researched answer:
-  OOP - At the center of the code are things, a person, a database connection, or an input field. The “things” we can actually work with are called instances. All instances have a blueprint — classes, in most OO programming languages. We can use them in JavaScript as well. You can describe OOP in a sentence with: We create “things” of a certain type. Of course, this is very simplified. Here is an example.
+  OOP - The code is centralized around instances, a person, a database connection, or an input field. All instances have a blueprint or 'classes'. While researching this, I found  interesting that the OOP approach is great for large, complex programs. 
 
-  FP - Unlike OOP, in functional programming we don’t have “things” that hold their own state — that’s rather what we want to avoid. There are no blueprints for instances. We decompose the task we want to implement into functions as much as possible. But not just any functions — the ideal is so-called “Pure Functions”.
+  FP - Unlike OOP, in functional programming we don’t have instances that hold their own state, it is actually what to avoid. There are no blueprints for instances. We factor down the task we want to implement into functions as much as possible. While researching this I found interesting that FP approach is great for in demand tasks such as data analysis. 
 
   source: https://javascript.plainenglish.io/javascript-functional-vs-oop-fb5fbf15a35d
 
@@ -39,9 +39,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. What is the difference between a Float and an Integer in Ruby?
 
-  Your answer: An Float is any rational number, while an Integer is any whole number. 
+  Your answer: An Float is any rational number, while an Integer is any whole number. We used both in our class to differentiate between rational numbers for complex math and whole numbers for simple math. 
 
-  Researched answer: The main difference between float and decimal is that the latter gives a more accurate value, even though it is likely to take up more space in your database. This is why decimal is ideal for complex financial applications. In a real world application, you are more likely to use the float data type in your database as opposed to integers because you can get more accurate values.
+  Researched answer: The main difference between floats and integers is that float gives a more accurate number value and it is likely to take up more space in your database. This is why decimal is ideal for complex financial applications. While researching this, I found interesting that most codes will opt for a float rather than an integer to get more accurate results. 
 
   source: https://rails.devcamp.com/trails/ruby-programming/campsites/working-with-numbers-in-ruby/guides/difference-between-integers-and-floats-in-a-ruby-program
 
@@ -49,9 +49,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 5. Ruby has an implicit return. What does that mean?
 
-  Your answer: Implicit return is when Ruby automatically knows to run the last code without being told to do so. 
+  Your answer: Implicit return is when Ruby automatically knows to run the last code without being told to do so. In class we used the getter method to return the value of an attribute. We also used the setter method, which takes a parameter and assigns it to the attribute.
 
-  Researched answer: Any statement in Ruby returns the value of the last evaluated expression. A simple example is the getter method. We call a method and expect some value in return.
+  Researched answer: Any statement in Ruby returns the value of the last evaluated expression, we call a method and expect some value in return. Arrow functions ( => ) implicitly return values by not needing the curly braces {} that are supposed to wrap a function's body as long as their body only contains one expression.
 
   source: https://www.freecodecamp.org/news/idiomatic-ruby-writing-beautiful-code-6845c830c664/
 
